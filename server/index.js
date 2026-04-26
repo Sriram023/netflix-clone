@@ -9,7 +9,7 @@ app.use(express.json());
 // Mock user
 const USER = {
   email: "admin@gmail.com",
-  password: "123456",
+  password: "Sri@123",
 };
 
 app.post("/login", (req, res) => {
